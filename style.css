@@ -6,3 +6,35 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+.card-group {
+    max-width: 1000px;
+}
+
+.circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100px;
+    height: 110px;
+    width: 110px;
+    margin: 20px auto;
+}
+
+.circle h1 {
+    margin-top: 1rem;
+}
+
+.circle p {
+    vertical-align: middle;
+}
+
+.left-card {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.rounded-circle {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.summary-desc {
+    padding: 2rem;
+}
