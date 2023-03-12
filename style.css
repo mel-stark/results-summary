@@ -1,3 +1,19 @@
+@media screen and (max-width: 575px) {
+    .reaction {
+        background-color: hsla(0, 100%, 67%, 0.1);
+        max-height: 46px;
+        max-width: 100%;
+    }
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -31,6 +47,14 @@
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
+.memory {
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.memory p {
+    color: hsl(39, 100%, 56%); 
+}
+
 .rounded-circle {
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
@@ -39,8 +63,37 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 0.5rem;
+    padding-bottom: 1rem;
 }
 
 .sum-subtitle {
     padding-top: 1rem;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.reaction p {
+    color: hsla(0, 100%, 67%);
+}
+
+.results {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0.5rem;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.right-card {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: left;
+}
+
+.right-card .alignright {
+    padding-right: 1rem;
+    color: hsl(224, 30%, 27%);
 }
