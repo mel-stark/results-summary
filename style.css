@@ -16,6 +16,7 @@
 
 .attribution { 
     font-size: 11px; 
+    padding-top: 2rem;
     text-align: center; 
 }
 
@@ -26,6 +27,7 @@
 .btn {
     background-color: hsla(241, 72%, 46%);
     color: white;
+    margin: 2rem 1rem;
 }
  
 .card-group {
@@ -67,7 +69,7 @@
 .summary-desc {
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 0.5rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -87,6 +89,8 @@
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     padding-top: 10px;
     padding-left: 15px;
 }
@@ -101,6 +105,10 @@
 .right-card .alignright {
     padding-right: 1rem;
     color: hsl(224, 30%, 27%);
+}
+
+.right-card h5 {
+    padding-left: 1rem;
 }
 
 .verbal {
