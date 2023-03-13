@@ -6,6 +6,11 @@
     }
 }
 
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+} 
+  
 .alignleft {
 	float: left;
 }
@@ -15,9 +20,8 @@
 }
 
 .attribution { 
-    font-size: 11px; 
-    padding-top: 2rem;
-    text-align: center; 
+    font-size: 11px;
+    text-align: center;
 }
 
 .attribution a { 
@@ -32,6 +36,7 @@
  
 .card-group {
     max-width: 600px;
+    border-radius: 25px;
 }
 
 .circle {
@@ -44,6 +49,7 @@
 
 .circle h1 {
     margin-top: 1rem;
+    font-weight: 800;
 }
 
 .circle p {
@@ -75,6 +81,7 @@
 
 .sum-subtitle {
     padding-top: 1rem;
+    font-weight: 700;
 }
 
 .reaction {
