@@ -58,6 +58,10 @@ body {
     font-size: 50px;
 }
 
+.card h2 {
+    font-size: 20px;
+}
+
 .circle p {
     vertical-align: middle;
 }
@@ -94,6 +98,10 @@ body {
     margin-left: 1rem;
     padding-top: 10px;
     padding-left: 15px;
+}
+
+.row {
+    height: 100vh;  /* the initial body height will take 100% of the viewport height, to align it vertically to the middle */
 }
 
 .right-card {
