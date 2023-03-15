@@ -116,8 +116,9 @@ body {
     color: hsl(224, 30%, 27%);
 }
 
-.right-card h5 {
+.right-card h1 {
     padding-left: 1rem;
+    font-size: 25px;
 }
 
 .small {
